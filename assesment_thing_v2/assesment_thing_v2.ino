@@ -1,22 +1,3 @@
-/*
-  Check connection and re-initialize the sensor in order to allow hot-swapping sensors
-  By: Owen Lyke
-  SparkFun Electronics
-  Date: May 31st 2018
-  License: This code is public domain but you buy me a beer if you use this and we meet someday (Beerware license).
-
-  Example3_Check_Connection
-
-  To connect the sensor to an Arduino:
-  This library supports the sensor using the I2C protocol
-  On Qwiic enabled boards simply connnect the sensor with a Qwiic cable and it is set to go
-  On non-qwiic boards you will need to connect 4 wires between the sensor and the host board
-  (Arduino pin) = (Display pin)
-  SCL = SCL on display carrier
-  SDA = SDA
-  GND = GND
-  3.3V = 3.3V
-*/
 
 #include <SparkFun_LPS25HB_Arduino_Library.h> // Click here to get the library: http://librarymanager/All#SparkFun_LPS25HB
 
