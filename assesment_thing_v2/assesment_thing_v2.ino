@@ -73,10 +73,8 @@ void loop()
   //----------------------------
   //
   //----------------------------
-//   if () // when should i deploy the chute? // millis()
+  //   if () // when should i deploy the chute? // millis()
   {
     myservo.write(epos);
   }
-}
-
 }
